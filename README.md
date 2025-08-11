@@ -145,15 +145,14 @@ ML & CV research notebooks including:
 ---
 
 # 📊 GitHub Stats & Activity
-### ✔ Streak removed — replaced with better visuals
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Shivp55&show_icons=true&theme=tokyonight&hide=contribs" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivp55&layout=compact&theme=tokyonight" />
-</p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivp55&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shivp55&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shivp55&theme=tokyonight" />
 </p>
 
 <p align="center">
