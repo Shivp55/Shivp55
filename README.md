@@ -3,7 +3,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c8bf5,100:00205f&height=260&section=header&text=Shaishav%20Parekh&fontSize=55&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<h3 align="center">Software Engineer • Full Stack • Cloud • AI/ML • Computer Vision</h3>
+<h3 align="center">Software Engineer • Java 21 • Spring Boot • Scalable APIs • Cloud • Testing</h3>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/shaishav-parekh/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"></a>
   <a href="https://shivp55.github.io/shaishav-portfolio/"><img src="https://img.shields.io/badge/Portfolio-green?style=for-the-badge&logo=react"></a>
@@ -14,11 +15,10 @@
 ---
 
 # 👋 About Me
-Hi, I'm **Shaishav Parekh**, a Software Engineer based in Dublin with experience in **Java, Spring Boot, React, Cloud Systems, and Deep Learning**.  
-I recently completed my **Master’s in Electronic & Computer Engineering with First Class Honours** from **Dublin City University (DCU)**.  
+Hi, I'm **Shaishav Parekh**, a Software Engineer based in Dublin with 3+ years of experience building and operating **Java (Java 21) and Spring Boot** services for customer-facing platforms.  
+I recently completed my **Master’s in Electronic & Computer Engineering (First Class Honours)** from **Dublin City University (DCU)**.
 
-I enjoy building scalable systems, AI-powered applications, automation workflows, and clean, production-ready full-stack solutions.  
-Always learning, always shipping.
+I focus on **server-side development**, scalable REST APIs, reliable data access, event-driven systems, and production support. I enjoy building clean, maintainable systems and improving performance and reliability end-to-end.
 
 ---
 
@@ -28,107 +28,125 @@ Always learning, always shipping.
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-347AB4?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-efd81d?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-2f74c0?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-29BEB0?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript (basic)](https://img.shields.io/badge/TypeScript%20(basic)-2f74c0?style=for-the-badge&logo=typescript&logoColor=white)
 
-## 🧩 Frameworks
+## 🧩 Frameworks & UI
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![React](https://img.shields.io/badge/React-00d8ff?style=for-the-badge&logo=react&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-dd0031?style=for-the-badge&logo=angular&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-f72c1f?style=for-the-badge&logo=laravel)
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-cd2b2b?style=for-the-badge&logo=codeigniter)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0f172a?style=for-the-badge&logo=tailwindcss)
 
 ## 🛠 Backend, Databases & Event Systems
 ![Microservices](https://img.shields.io/badge/Microservices-6d28d9?style=for-the-badge)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-111827?style=for-the-badge)
 ![MySQL](https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql)
-![MongoDB](https://img.shields.io/badge/MongoDB-4FAA41?style=for-the-badge&logo=mongodb)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2F5E8D?style=for-the-badge&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-4FAA41?style=for-the-badge&logo=mongodb)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis)
 ![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka)
 
 ## ☁ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232f3e?style=for-the-badge&logo=amazonaws)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-232f3e?style=for-the-badge&logo=amazonaws)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-232f3e?style=for-the-badge&logo=amazonaws)
+![Azure](https://img.shields.io/badge/Azure%20(cert%20in%20progress)-0078D4?style=for-the-badge&logo=microsoftazure)
 ![Docker](https://img.shields.io/badge/Docker-1d63ed?style=for-the-badge&logo=docker)
 ![Jenkins](https://img.shields.io/badge/Jenkins-b3392d?style=for-the-badge&logo=jenkins)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-000000?style=for-the-badge&logo=githubactions)
-![CloudFormation](https://img.shields.io/badge/CloudFormation-5a2d86?style=for-the-badge&logo=aws)
+![New Relic](https://img.shields.io/badge/New%20Relic-008c99?style=for-the-badge&logo=newrelic&logoColor=white)
+![Sumo Logic](https://img.shields.io/badge/Sumo%20Logic-000000?style=for-the-badge)
 
-## 🤖 AI, ML & Computer Vision
-![TensorFlow](https://img.shields.io/badge/TensorFlow-f77f00?style=for-the-badge&logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-4caf50?style=for-the-badge)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-0d47a1?style=for-the-badge)
+## ✅ Testing
+![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-0b1320?style=for-the-badge)
+![TDD](https://img.shields.io/badge/TDD-111827?style=for-the-badge)
+![Integration Testing](https://img.shields.io/badge/Integration%20Testing-111827?style=for-the-badge)
+
+## 🧠 Additional Exposure
+![Angular](https://img.shields.io/badge/Angular-0f172a?style=for-the-badge&logo=angular)
+![Three.js](https://img.shields.io/badge/Three.js-111827?style=for-the-badge&logo=three.js&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl)
 
 ---
 
 # 🔥 Featured Projects
 
-### 🚴 Pedestrian Collision Detection for Cyclists (Masters Project – DCU)
+### 🚴 Pedestrian Collision Detection for Cyclists (Master’s Project – DCU)
 Real-time detection system using:
 - TensorFlow  
 - Python + Flask  
-- AWS EC2 Deployment  
-- CloudWatch Metrics  
-- Live Video Inference  
+- AWS EC2 deployment  
+- CloudWatch metrics  
+- Live inference pipeline  
 
-> Part of my First Class Honours research work.
+---
+
+### 🧪 Flink Clickstream Anomaly Detection (Kafka + Flink)
+Distributed streaming system:
+- Kafka + Apache Flink processing  
+- Windowed aggregations + anomaly detection  
+- Docker Compose multi-service setup  
+- APIs for monitoring and visualisation  
+
+🔗 https://github.com/Shivp55/flink-clickstream-anomaly-detection
+
+---
+
+### 🗂 Clickstream Hadoop Pipeline (HDFS + Hive + MapReduce)
+Batch analytics pipeline:
+- Multi-zone HDFS (raw, clean, aggregated)  
+- Hive external tables + HiveQL  
+- MapReduce batch processing  
+- Structured reporting over high-volume logs  
+
+🔗 https://github.com/Shivp55/clickstream-hadoop-pipeline
 
 ---
 
 ### 🏦 Internet Banking System (Spring Boot + MySQL)
-A secure transactional banking platform featuring:
-- Spring Boot  
-- JWT Authentication  
-- Transaction-safe API design  
-- 30% faster response time after query optimization  
-
-🔗 https://github.com/Shivp55
+Secure web application focusing on:
+- Transactional integrity + fail-safe API handling  
+- Query optimisation + caching improvements  
+- ~30% faster response time (project result)  
 
 ---
 
-### 📚 Library Management System  
+### 📚 Library Management System (Capstone)
 Built using:
 - PHP + MySQL + Bootstrap  
-- Admin & user dashboards  
-- Transaction logging  
-- Role-based authentication  
-
----
-
-### 👁 AI & Deep Learning Experiments  
-ML & CV research notebooks including:
-- CNN Models  
-- Image Augmentation  
-- Real-time detection  
-- TensorFlow training pipelines  
+- Admin/user dashboards  
+- Role-based features  
 
 ---
 
 # 🏆 Certifications
 - Amazon Full Stack Java Developer  
-- IBM Backend Engineer  
+- Java Full Stack Development (Spring Boot, React, MySQL, Tailwind CSS, Redux, Cloud Deployment) – Udemy  
 - IBM Data Analytics  
 - Generative AI in Software Development  
-- AWS Cloud Architect *(In Progress)*  
-- THREE.js 3D Web Game Development Certificate  
-- Self-learning in LLMs, Computer Vision, Neural Networks  
 
 ---
 
 # 💼 Experience Summary
 
-### **Full Stack Developer – GreySlate Technologies (2023)**
-- Spring Boot Microservices + React UI  
-- Docker + Jenkins CI/CD on AWS EC2  
-- JWT Authentication, API Security  
-- MySQL + MongoDB  
-- Worked in Agile/Scrum environment  
+### **Full Stack Software Engineer – GreySlate Technologies (Feb 2023 – Dec 2023)**
+- Spring Boot backend + React frontend for customer-facing workflows  
+- Authentication & authorization using Spring Security + JWT (access/refresh tokens), RBAC  
+- PostgreSQL integration with query optimisation + transactional logic  
+- AWS EC2 deployments, Docker, CI/CD pipelines, monitoring (CloudWatch/New Relic/Sumo Logic)  
+- Agile delivery, code reviews, production support  
 
-### **Junior Java Developer – Tatvasoft (2022–2023)**
-- Spring Boot microservices  
-- AWS S3 + Lambda integrations  
-- Jenkins CI/CD  
-- Unit testing with JUnit + Mockito  
-- Frontend improvements with React  
+### **Java Software Engineer – Tatvasoft (Mar 2022 – Feb 2023)**
+- Spring Boot + Spring Data JPA backend services  
+- REST APIs with validation, error handling, and versioning  
+- Unit & integration testing with JUnit 5 + Mockito  
+- Jenkins CI/CD, production issue reduction via configuration and error-handling improvements  
+- Agile Scrum team collaboration  
+
+### **Android Developer Intern – BrainyBeam Technologies (Dec 2021 – Feb 2022)**
+- Android features in Java (Android Studio)  
+- REST API integrations  
+- Firebase Auth, Firestore, Cloud Messaging  
 
 ---
 
@@ -136,11 +154,11 @@ ML & CV research notebooks including:
 
 🎓 **Master’s in Electronic & Computer Engineering – Dublin City University**  
 - First Class Honours  
-- Focus: Computer Vision, Image Processing, 3D Interfaces, Full-Stack Development
+- Focus: Computer Vision, Image Processing & Analysis, 3D Interfaces, Full-Stack Development (Spring Boot)
 
-🎓 **Bachelor of Computer Engineering – Gujarat Technological University**  
-- Distinction (9.12/10 CGPA)  
-- Focus: Web Development, AI, Machine Learning, Data Analysis
+🎓 **Bachelor in Computer Engineering – Gujarat Technological University (GTU)**  
+- 9.12/10 CGPA  
+- Focus: Web Development, Data Analysis & Visualisation, AI/ML, Java, JavaScript
 
 ---
 
@@ -162,8 +180,6 @@ ML & CV research notebooks including:
 ---
 
 # 📫 Contact
-If you’d like to collaborate, build something together, or chat about tech, feel free to reach out.
-
 📧 **shaishav.parekh2@mail.dcu.ie**  
 📧 **shaishavparekh23@gmail.com**  
 🔗 **linkedin.com/in/shaishavparekh**
