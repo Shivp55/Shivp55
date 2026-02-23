@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/shaishav-parekh/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"></a>
   <a href="https://shivp55.github.io/shaishav-portfolio/"><img src="https://img.shields.io/badge/Portfolio-green?style=for-the-badge&logo=react"></a>
-  <a href="mailto:shaishav.parekh2@mail.dcu.ie"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a>
+  <a href="mailto:shaishavparekh23@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a>
   <a href="https://github.com/Shivp55"><img src="https://img.shields.io/badge/GitHub-Shivp55-black?style=for-the-badge&logo=github"></a>
 </p>
 
