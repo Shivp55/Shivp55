@@ -1,162 +1,193 @@
-<!-- Banner -->
+<!-- Premium Minimal Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c8bf5,100:00205f&height=260&section=header&text=Shaishav%20Parekh&fontSize=55&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:1f2937&height=200&section=header&text=Shaishav%20Parekh&fontSize=44&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<h3 align="center">Java Full Stack Engineer • Spring Boot • React • Microservices • AWS • Kubernetes</h3>
+<h3 align="center">Backend & Distributed Systems Engineer</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/shaishav-parekh/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://shivp55.github.io/shaishav-portfolio/"><img src="https://img.shields.io/badge/Portfolio-green?style=for-the-badge&logo=react"></a>
-  <a href="mailto:shaishavparekh23@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a>
-  <a href="https://github.com/Shivp55"><img src="https://img.shields.io/badge/GitHub-Shivp55-black?style=for-the-badge&logo=github"></a>
+  Dublin, Ireland • Open to Backend / Distributed Systems Roles  
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shaishav-parekh/">LinkedIn</a> •
+  <a href="https://shivp55.github.io/shaishav-portfolio/">Portfolio</a> •
+  <a href="mailto:shaishavparekh23@gmail.com">Email</a>
 </p>
 
 ---
 
-# 👋 About Me
+## Engineering Approach
 
-Hi, I'm **Shaishav Parekh**, a Full Stack Software Engineer based in Dublin with 3+ years of experience building and operating scalable cloud-native systems using **Java (Spring Boot), React, and AWS**.
+I design backend systems that prioritize:
 
-I recently completed my **MEng in Electronic & Computer Engineering (First Class Honours)** from **Dublin City University**.
+- Horizontal scalability  
+- Idempotent API design  
+- Fault isolation between services  
+- Observability-first architecture  
+- Concurrency-safe processing  
+- Secure and production-ready SDLC  
 
-I focus on:
-
-- Designing **microservices architectures**
-- Building scalable **REST APIs**
-- Developing clean, responsive **React frontends**
-- Implementing **CI/CD pipelines**
-- Ensuring reliability through testing, monitoring, and secure SDLC practices
-
-I enjoy working on systems where performance, security, and scalability truly matter.
+My work centers around distributed microservices, event-driven systems, and operational reliability.
 
 ---
 
-# 🧠 Tech Stack
+# 🏦 System Design Case Study  
+## Distributed Banking Microservices Platform  
 
-## 💻 Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-347AB4?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-efd81d?style=for-the-badge&logo=javascript&logoColor=black)
+🔗 Repository:  
+https://github.com/Shivp55/Microservices  
 
-## 🧩 Backend & Architecture
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-6d28d9?style=for-the-badge)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-111827?style=for-the-badge)
-![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-1d63ed?style=for-the-badge&logo=docker)
+**Stack:** Java • Spring Boot • Kafka • Kubernetes • Prometheus • Grafana  
 
-## 🎨 Frontend
-![React](https://img.shields.io/badge/React-00d8ff?style=for-the-badge&logo=react&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-ef652a?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3)
+### Architecture
 
-## ☁ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232f3e?style=for-the-badge&logo=amazonaws)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-b3392d?style=for-the-badge&logo=jenkins)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform)
-
-## 📊 Observability & Quality
-![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-111827?style=for-the-badge)
-![REST Assured](https://img.shields.io/badge/REST%20Assured-111827?style=for-the-badge)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana)
+- Independent domain services (Accounts, Loans, Cards)
+- Asynchronous inter-service communication using Kafka
+- Server-side service discovery
+- Centralized configuration management
+- Dockerized services deployed on Kubernetes
+- Horizontal pod scaling
+- Prometheus metrics with Grafana dashboards
+- CI/CD via Maven pipelines
 
 ---
 
-# 🚀 Featured Engineering Projects
+### System Design Decisions
 
-## 🏦 Distributed Banking Microservices System
-- Spring Boot microservices (accounts, transactions, loans)
-- Kafka-based asynchronous communication
-- Kubernetes deployment with **server-side service discovery**
-- Dockerized services with horizontal scaling
-- Prometheus + Grafana observability
-- CI/CD pipelines using Maven
+**1️⃣ Consistency vs Availability (CAP Consideration)**  
+For transaction workflows, strong consistency was prioritized over availability.  
+Services use transactional boundaries to maintain ACID compliance for financial data integrity.
 
----
+**2️⃣ Idempotency Handling**  
+Transaction APIs designed with idempotency keys to prevent duplicate processing during retries.
 
-## 🧾 Full Stack Sticker Application
-- Spring Boot REST APIs + React frontend
-- JWT authentication + role-based access control
-- JUnit-based backend validation
-- Optimized SQL indexing to reduce API latency
+**3️⃣ Concurrency Control**  
+- Optimistic locking using JPA version fields  
+- Thread-safe Kafka consumers  
+- Transaction isolation levels carefully selected  
 
----
+**4️⃣ Fault Tolerance**  
+- Retry logic for transient failures  
+- Dead-letter topic pattern in Kafka  
+- Service isolation to prevent cascading failure  
 
-## 👨‍💼 Employee Management Web Application
-- Layered architecture (Controller–Service–Repository)
-- Modular React components
-- REST API integration
-- ~35% performance improvement via query optimization
+**5️⃣ Caching Strategy**  
+- Redis-based caching for read-heavy endpoints  
+- Cache invalidation aligned with domain updates  
+- Reduced read latency by ~30–35% in optimized endpoints  
 
 ---
 
-## 🚴 Real-Time Pedestrian Detection System
-- Deep learning inference API deployed on AWS EC2
-- Monitoring via CloudWatch
-- Real-time latency and uptime tracking
+# 📊 Performance & Impact
+
+- ~35% reduction in API response time via indexing & query tuning  
+- Reduced manual deployment overhead via CI/CD automation  
+- Improved production visibility through Prometheus + Grafana dashboards  
+- Designed services to scale horizontally under load  
 
 ---
 
-## 📊 Streaming Clickstream Anomaly Detection
-- Kafka + Apache Flink streaming
-- Windowed aggregations + anomaly detection logic
-- Docker-based distributed setup
+# 📈 Streaming System Design  
+## Real-Time Clickstream Anomaly Detection  
 
-🔗 https://github.com/Shivp55/flink-clickstream-anomaly-detection
+🔗 Repository:  
+https://github.com/Shivp55/flink-clickstream-anomaly-detection  
+
+**Stack:** Kafka • Apache Flink • Docker  
+
+### Design Focus
+
+- Stateful stream processing  
+- Windowed aggregations  
+- Backpressure management  
+- Partition-aware Kafka processing  
+- Containerized multi-service orchestration  
+
+Trade-off considered between latency and processing accuracy in anomaly thresholds.
 
 ---
 
-# 💼 Experience Snapshot
+# 🧾 Full Stack Systems
 
-### Full Stack Software Engineer – GreySlate Technologies
-- Spring Boot microservices + React UI
-- Kafka-driven event workflows
-- CI/CD automation with Maven & Jenkins
-- Production support, RCA, performance tuning
+## Sticker Application  
+🔗 https://github.com/Shivp55/React_Java_Learning  
+
+- Spring Boot REST APIs  
+- JWT authentication + RBAC  
+- Modular React architecture  
+- SQL query optimization  
+- Layered backend design  
+
+---
+
+## Employee Management Dashboard  
+🔗 https://github.com/Shivp55/Employee-Management-App  
+
+- Controller–Service–Repository pattern  
+- Clean React component separation  
+- RESTful API contracts  
+- Structured validation & error handling  
+- ~35% latency reduction through query optimization  
+
+---
+
+# 🛡 Reliability & Production Engineering
+
+- L3 production support experience  
+- Root Cause Analysis (RCA)  
+- CloudWatch, Prometheus & Grafana monitoring  
+- Secure SDLC (OWASP awareness)  
+- CI/CD automation  
+- Blue/Green deployment familiarity  
+
+---
+
+# Core Stack
+
+**Languages:** Java, Python, JavaScript  
+**Backend:** Spring Boot, Microservices, REST APIs  
+**Frontend:** React  
+**Streaming:** Kafka  
+**Containers:** Docker, Kubernetes  
+**Cloud:** AWS (EC2, Lambda, API Gateway, CloudWatch)  
+**Build:** Maven  
+**Databases:** PostgreSQL, MySQL, MongoDB, Redis  
+**Testing:** JUnit, Mockito  
+
+---
+
+# Experience Snapshot
+
+### Freelance Full Stack Engineer (2023–Present)
+- Architected distributed systems end-to-end  
+- Improved API performance via database tuning  
+- Built CI/CD automation  
+- Implemented observability dashboards  
+
+### Full Stack Software Engineer – GreySlate
+- Built microservices + React UI  
+- Kafka event processing  
+- Production support & reliability improvements  
 
 ### Java Software Engineer – Tatvasoft
-- Enterprise backend services (Spring Boot + JPA)
-- REST APIs with validation and error handling
-- Unit & integration testing (JUnit, Mockito)
-- Modernization toward microservices
-
----
-
-# 🎓 Education
-
-🎓 **MEng Electronic & Computer Engineering – Dublin City University**
-- First Class Honours (2025)
-
-🎓 **BEng Computer Engineering – GTU**
-- GPA: 9.12/10
-
----
-
-# 🏆 Certifications
-
-- Amazon Full Stack Java Developer  
-- Spring Boot Microservices Developer  
-- Full-Stack Java React Spring Boot Developer  
-- Building Scalable Java Microservices (Spring Cloud)  
-- Generative AI in Software Development  
-- AWS Cloud Solutions Architect (In Progress)
-
----
-
-# 📫 Contact
-
-📧 shaishavparekh23@gmail.com  
-🔗 linkedin.com/in/shaishav-parekh  
-
----
-
-<p align="center">Built with clarity, clean architecture, and continuous improvement.</p>
+- Enterprise REST APIs  
+- Integration testing  
+- Migration toward microservices  
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00205f,100:4c8bf5&height=160&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,100:111827&height=120&section=footer&text=Made%20By%20Shaishav%20Parekh&fontSize=14&fontColor=ffffff&animation=fadeIn" />
 </p>
+
+---
+
+# GitHub Activity
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivp55&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivp55&theme=github-dark" />
+</p>
+
