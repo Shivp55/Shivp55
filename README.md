@@ -176,7 +176,7 @@ Trade-off considered between latency and processing accuracy in anomaly threshol
 - Migration toward microservices  
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,100:111827&height=120&section=footer&text=Made%20By%20Shaishav%20Parekh&fontSize=14&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,100:111827&height=120&section=footer&text=Thank%20You%20For%20Visiting&fontSize=14&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ---
