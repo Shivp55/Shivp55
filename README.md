@@ -184,10 +184,6 @@ Trade-off considered between latency and processing accuracy in anomaly threshol
 # GitHub Activity
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivp55&theme=github_dark" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivp55&theme=github-dark" />
 </p>
 
